@@ -19,8 +19,7 @@
 </script>
 
 <div class="scene" style="height: 30rem; border: 1px solid black; border-radius: 1rem">
-	<Canvas>
-		<SetRoot {flat} {linear} />
+	<Canvas {flat} {linear}>
 
 		<PerspectiveCamera position={{ x: 10, y: 10, z: 10 }} fov={24}>
 			<OrbitControls
